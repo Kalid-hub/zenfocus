@@ -7,11 +7,12 @@ import Navbar from "./component/Navbar";
 import Home from "./pages/Home";
 import DashboardPage from "./pages/DashboardPage";
 import TasksPage from "./pages/TasksPage";
-import DailyChartPage from "./pages/DailyChartPage";
+
 import { useTasks } from "./hook/useTasks";
 import { useDarkMode } from "./hook/useDarkMode";
 import { useBackgroundImage } from "./hook/useBackgroundImage";
 import Footer from "./component/Footer";
+import DailyChartPage from "./pages/DailychartPage";
 
 const bgImages = ["/bg1.jpg", "/bg2.jpg", "/bg3.jpg", "/bg4.jpg"];
 
